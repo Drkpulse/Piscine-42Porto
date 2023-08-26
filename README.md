@@ -1,6 +1,6 @@
 # 42 School Silicon Valley
 
-![42 Logo](Files/Resources/Images/42-logo.png)
+![42 Logo](Files/Images/42-logo.png)
 
 ## Overview
 
