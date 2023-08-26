@@ -38,4 +38,4 @@ Thumbs.db
 
 # Git Files#
 ######################
-*.git
+*/*.git
