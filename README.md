@@ -1,4 +1,4 @@
-# 42 School Silicon Valley
+# 42 Porto
 
 ![42 Logo](Files/Images/42-logo.png)
 
