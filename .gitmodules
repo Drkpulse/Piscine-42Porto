@@ -1,0 +1,12 @@
+[submodule "c00"]
+	path = c00
+	url = git@vogsphere.42porto.com:vogsphere/intra-uuid-ba7560f0-26db-4586-8df3-ae0bdf408101-5092154-joseferr
+[submodule "Rush00"]
+	path = Rush00
+	url = git@vogsphere.42porto.com:vogsphere/intra-uuid-63c30dc1-f653-4df7-a6e1-c0e640de2b73-5100447-joseferr
+[submodule "Shell00"]
+	path = Shell00
+	url = git@vogsphere.42porto.com:vogsphere/intra-uuid-3b23c2bf-7f28-4db9-9f83-896fdca64c06-5093168-joseferr
+[submodule "Shell01"]
+	path = Shell01
+	url = git@vogsphere.42porto.com:vogsphere/intra-uuid-a45d035a-59d1-49a7-a593-0264da4997bd-5082388-joseferr
