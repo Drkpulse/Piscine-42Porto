@@ -16,11 +16,11 @@ void	rush(int l, int h);
 
 void	rush(int l, int h)
 {
+	char	corner;
+	char	side;
+	char	top;
 	int	i;
 	int	j;
-	char	corner;
-	char	top;
-	char	side;
 
 	j = 1;
 	corner = 'o';
