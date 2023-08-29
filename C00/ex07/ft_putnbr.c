@@ -37,10 +37,10 @@ void        ft_putnbr(int x)
 /*
 int main()
 {
-    int nbr;
+    int x;
 
-    nbr = 99;
+    x = 99;
 
-	ft_putnbr(nbr);
+	ft_putnbr(x);
 }
 */
