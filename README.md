@@ -4,7 +4,7 @@
 
 ## Overview
 
-Repository with my work while @ 42Porto
+Repository with my piscine @ 42Porto
 
 > **Warning**
 > Still under work
