@@ -6,12 +6,12 @@
 /*   By: joseferr <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/28 17:41:25 by joseferr          #+#    #+#             */
-/*   Updated: 2023/08/29 15:55:14 by joseferr         ###   ########.fr       */
+/*   Updated: 2023/08/30 17:14:01 by joseferr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
 
-void    ft_putchar(char i,char n,char x)
+void	ft_putchar( char i, char n, char x)
 {
 	write(1, &i, 1);
 	write(1, &n, 1);
@@ -22,23 +22,22 @@ void    ft_putchar(char i,char n,char x)
 	}
 }
 
-
-void ft_print_comb(void)
+void	ft_print_comb(void)
 {
-	char i;
-	char n;
-	char x;
+	char	i;
+	char	n;
+	char	x;
 
 	i = '0';
-	while(i<='7')
+	while (i <= '7')
 	{
 		n = i + 1;
-		while(n<='8')
+		while (n <= '8')
 		{
 			x = n + 1;
-			while(x<='9')
+			while (x <= '9')
 			{
-				ft_putchar(i,n,x);
+				ft_putchar(i, n, x);
 				x++;
 			}
 			n++;

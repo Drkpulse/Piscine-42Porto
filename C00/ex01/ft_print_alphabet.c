@@ -6,21 +6,19 @@
 /*   By: joseferr <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/25 13:34:12 by joseferr          #+#    #+#             */
-/*   Updated: 2023/08/25 13:50:26 by joseferr         ###   ########.fr       */
+/*   Updated: 2023/08/30 14:36:32 by joseferr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
 
 void	ft_print_alphabet(void)
 {
-	char a;
+	char	a;
 
 	a = 'a';
-
-	while ( a <= 'z' )
-
+	while (a <= 'z')
 	{
-	write (1, &a, 1);
-	a++;
+		write (1, &a, 1);
+		a++;
 	}
 }
