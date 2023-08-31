@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
+#include <stdlib.h>
 
 void	ft_putchar(char c)
 {
@@ -34,13 +35,12 @@ void        ft_putnbr(int x)
     }
 }
 
-/*
-int main()
+
+int main(int argc, char* argv[])
 {
     int x;
-
-    x = 99;
+    x = atoi(argv[1]);
 
 	ft_putnbr(x);
 }
-*/
+ 
