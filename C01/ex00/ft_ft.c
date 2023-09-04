@@ -9,8 +9,10 @@
 /*   Updated: 2023/08/30 19:05:45 by joseferr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <unistd.h>
+
 /* Testing Purpose
+#include <unistd.h>
+
 void	ft_putchar(char c)
 {
 	write (1, &c, 1);
