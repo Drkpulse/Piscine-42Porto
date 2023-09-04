@@ -9,8 +9,23 @@
 /*   Updated: 2023/08/30 15:06:37 by joseferr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+/*#include <unistd.h>*/
 
 void	ft_print_numbers(void)
 {
-	write ("0123456789");
+	int	a;
+
+	a = '0';
+	while (a <= '9' )
+	{
+		write (1, &a, 1);
+		a++;
+	}
+	write (1, '\n', 1);
 }
+/*
+int main()
+{
+	ft_print_numbers();
+}
+*/

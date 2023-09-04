@@ -9,7 +9,7 @@
 /*   Updated: 2023/08/30 17:03:13 by joseferr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <unistd.h>
+/*#include <unistd.h>*/
 
 void	ft_is_negative(int n)
 {
@@ -22,3 +22,14 @@ void	ft_is_negative(int n)
 		write(1, "P", 1);
 	}
 }
+
+/*
+int main()
+{
+	int a;
+
+	a = 12;
+
+	ft_is_negative();
+}
+*/

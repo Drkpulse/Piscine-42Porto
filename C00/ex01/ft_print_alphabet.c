@@ -9,7 +9,7 @@
 /*   Updated: 2023/08/30 14:36:32 by joseferr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <unistd.h>
+/*#include <unistd.h>*/
 
 void	ft_print_alphabet(void)
 {
@@ -22,3 +22,10 @@ void	ft_print_alphabet(void)
 		a++;
 	}
 }
+
+/*
+int main()
+{
+	ft_print_alphabet();
+}
+*/
