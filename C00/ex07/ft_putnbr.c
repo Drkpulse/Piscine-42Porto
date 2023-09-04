@@ -9,9 +9,10 @@
 /*   Updated: 2023/08/30 14:31:13 by joseferr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+/*
 #include <unistd.h>
 #include <stdlib.h>
-
+*/
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
@@ -35,12 +36,15 @@ void        ft_putnbr(int x)
     }
 }
 
-
-int main(int argc, char* argv[])
+/*
+int main(int argc, char *argv[])
 {
+    argc = 0;
     int x;
     x = atoi(argv[1]);
 
 	ft_putnbr(x);
 }
+*/
+
  
