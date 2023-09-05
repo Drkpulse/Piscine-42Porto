@@ -28,10 +28,18 @@ int main()
 	int b;
 	int *div;
 	int *mod;
+	int res;
+	int resto;
 
-	a = 2;
-	b = 3;
-	div = 0;
-	mod = 0;
-	ft_div_mod(a,b,div,mod);
+	a = 4;
+	b = 2;
+	res = 0;
+	resto = 0;
+	div = &res;
+	mod = &resto;
+
+	printf("%d, %d, %d, %d; \n", a, b,res,resto);
+	ft_div_mod(a, b, div, mod);
+	printf("%d, %d, %d, %d; \n", a, b,res,resto);
+	return (0);
 }
