@@ -11,21 +11,20 @@ char *ft_strcapitalize(char *str)
     {
         if(*(str + i) >= 'A' && *(str + i) <= 'Z')
         {
-            if (i != 0)
-            {
-                *(str + i) = *(str + i) + 32;
-            }
-            
+            *(str + i) = *(str + i) + 32;            
         }
         i++;
     }
     c = 0;
-    
     while(*(str + c) != '\0')
     {
         if(*(str + c) >= '!' && *(str + c) <= '/' || *(str + c) >= '[' && *(str + c) <= '`' || *(str + c) == ' ')
         {
-            if(*(str + c + 1) >= 'a' && *(str + c + 1) <= 'z')
+            if (c == 0 && *(str + c) >= 'a' && *(str + c) <= 'z')
+            {
+                *(str + c) = *(str + c) - 32;
+            }
+            else if(*(str + c + 1) >= 'a' && *(str + c + 1) <= 'z')
             {
                 *(str + c + 1) = *(str + c + 1) - 32;
                 printf("%c \n", *(str + c + 1));
