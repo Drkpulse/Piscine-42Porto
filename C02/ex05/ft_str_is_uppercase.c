@@ -26,6 +26,6 @@ int ft_str_is_uppercase(char *str)
 #include <unistd.h>
 int main()
 {
-    char frs[] = "";
+    char frs[] = "A MoUliNetTe deViA SofRer Um BuG";
     printf("%d \n",  ft_str_is_uppercase(frs));
 }

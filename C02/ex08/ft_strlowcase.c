@@ -1,13 +1,13 @@
-char *ft_strupcase(char *str)
+char *ft_strlowcase(char *str)
 {
     int i;
     i = 0;
     
     while(*(str + i) != '\0')
     {
-        if(*(str + i) >= 'a' && *(str + i) <= 'z')
+        if(*(str + i) >= 'A' && *(str + i) <= 'Z')
         {
-            *(str + i) = *(str + i) - 32;
+            *(str + i) = *(str + i) + 32;
         }
         i++;
     }
@@ -21,5 +21,5 @@ int main()
 {
     char frs[] = "A MoUliNetTe deViA SofRer Um BuG";
 
-    printf("%s \n", ft_strupcase(frs));
+    printf("%s \n", ft_strlowcase(frs));
 }
