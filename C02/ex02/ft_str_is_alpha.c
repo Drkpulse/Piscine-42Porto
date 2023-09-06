@@ -3,13 +3,19 @@ int ft_str_is_alpha(char *str)
     int i;
     int c;
     i = 0;
-    c = 0;
+    c = 1;
     while(str[i] != '\0')
     {
-        if(str[i] > 64 && str[i] < 91 || str[i] > 96 && str[i] < 123)
+        if(str[i] >= 'a' && str[i] <= 'z'|| str[i] >= 'A' && str[i] <= 'Z')
         {
-            c = 1;
+            c = 1;  
         }
+        else
+        {
+            c = 0;
+            break;
+        }
+        
         i++;
     }
     return(c);   
@@ -19,6 +25,6 @@ int ft_str_is_alpha(char *str)
 #include <unistd.h>
 int main()
 {
-    char frs[] = "Vais ter de me passar";
+    char frs[] = "sa2dafa";
     printf("%d \n",  ft_str_is_alpha(frs));
 }

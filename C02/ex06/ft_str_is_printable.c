@@ -1,4 +1,4 @@
-int ft_str_is_numeric(char *str)
+int ft_str_is_printable(char *str)
 {
     int i;
     int c;
@@ -7,7 +7,7 @@ int ft_str_is_numeric(char *str)
     
     while(str[i] != '\0')
     {
-        if(str[i] >= '0' && str[i] <= '9')
+        if(str[i] >= '!' && str[i] <= '~')
         {
             c = 1;  
         }
@@ -26,7 +26,7 @@ int ft_str_is_numeric(char *str)
 #include <unistd.h>
 int main()
 {
-    char frs[] = "3242a3432";
-    printf("%d \n",  ft_str_is_numeric(frs));
-}
+    char frs[] = "awdawdA";
 
+    printf("%d \n",  ft_str_is_printable(frs));
+}
