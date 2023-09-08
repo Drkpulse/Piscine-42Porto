@@ -39,3 +39,7 @@ Thumbs.db
 # Git Files#
 ######################
 */*.git
+
+# VSCode Thrash#
+######################
+.vscode
