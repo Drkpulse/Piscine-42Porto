@@ -1,8 +1,9 @@
 #include <unistd.h>
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 
-int    strlen(char *str)
+int    ft_strlen(char *str)
 {
     int i;
     i = 0;
@@ -30,11 +31,13 @@ char *ft_strdup(char *str)
     int len;
     char *dest;
 
-    len = strlen(str);
-    dest = (char *)malloc((n + 1) * sizeof(char));
-   if (dest == NULL)
+    len = ft_strlen(str);
+    dest = (char *)malloc((len + 1) * sizeof(char));
+    if (dest == NULL)
 		return (NULL);
+    ft_strcpy(dest, str);
 
+    return(dest);
 
 }
 
