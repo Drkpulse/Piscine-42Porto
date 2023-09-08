@@ -23,7 +23,7 @@ char *ft_strcapitalize(char *str)
                 *(str + c) = *(str + c) - 32;
                 
             }
-        else if(*(str + c) >= '!' && *(str + c) <= '/' || *(str + c) >= '[' && *(str + c) <= '`' || *(str + c) == ' ')
+        else if((*(str + c) >= '!' && *(str + c) <= '/') || (*(str + c) >= '[' && *(str + c) <= '`') || *(str + c) == ' ')
         {
             if(*(str + c + 1) >= 'a' && *(str + c + 1) <= 'z')
             {
@@ -38,9 +38,10 @@ char *ft_strcapitalize(char *str)
 
 
 
-int main()
+int main(int argc, char **argv)
 {
-    char frs[] = "a moUliNetTe !deViA Sof]er +Um B(uG";
-
-    printf("%s \n", ft_strcapitalize(frs));
+    (void) argc;
+    
+    printf("%s \n", ft_strcapitalize(&argv[1][0]));
 }
+/*"a moUliNetTe !deViA Sof]er +Um B(uG"*/
