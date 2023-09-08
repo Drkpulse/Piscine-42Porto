@@ -18,16 +18,17 @@ char *ft_strcapitalize(char *str)
     c = 0;
     while(*(str + c) != '\0')
     {
-        if(*(str + c) >= '!' && *(str + c) <= '/' || *(str + c) >= '[' && *(str + c) <= '`' || *(str + c) == ' ')
-        {
-            if (c == 0 && *(str + c) >= 'a' && *(str + c) <= 'z')
+        if (c == 0 && *(str + c) >= 'a' && *(str + c) <= 'z')
             {
                 *(str + c) = *(str + c) - 32;
+                
             }
-            else if(*(str + c + 1) >= 'a' && *(str + c + 1) <= 'z')
+        else if(*(str + c) >= '!' && *(str + c) <= '/' || *(str + c) >= '[' && *(str + c) <= '`' || *(str + c) == ' ')
+        {
+            if(*(str + c + 1) >= 'a' && *(str + c + 1) <= 'z')
             {
                 *(str + c + 1) = *(str + c + 1) - 32;
-                printf("%c \n", *(str + c + 1));
+                
             }
         }
         c++;
@@ -39,7 +40,7 @@ char *ft_strcapitalize(char *str)
 
 int main()
 {
-    char frs[] = "a MoUliNetTe !deViA SofRer U[m BuG";
+    char frs[] = "a moUliNetTe !deViA Sof]er +Um B(uG";
 
     printf("%s \n", ft_strcapitalize(frs));
 }
