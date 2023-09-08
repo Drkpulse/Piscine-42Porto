@@ -1,7 +1,7 @@
-<img src="Files/Images/42-logo.png" width="150" alt="42 Logo">
+<img src="Files/Images/logo42_dark.svg" width="300" alt="42 Logo">
 
 `Don't Copy, Learn.` <br />
-# 42Porto
+
 ## Overview
 Repository with my work @ Piscine 42Porto
 
