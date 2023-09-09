@@ -1,8 +1,8 @@
-int ft_strcmp(char *s1, char *s2)
+int ft_strncmp(char *s1, char *s2, unsigned int n)
 {
   int i;
   i=0;
-  while(s1[i])
+  while(i < n)
   {
       if(s1[i] != s2[i])
       {
@@ -22,7 +22,7 @@ int main ()
   int n;
   printf ("Looking for Moulinette's replacement \n");
   for (n=0 ; n<3 ; n++)
-    if (ft_strcmp (str[n],"Moulinette") == 0)
+    if (ft_strncmp (str[n],"Moulinette",5) == 0)
     {
       printf ("found %s\n",str[n]);
     }
