@@ -4,17 +4,20 @@
 int ft_iterative_factorial(int nb)
 {
     int res;
-    while(nb>0)
+    int i;
+    i = 1;
+    res = nb;
+    while(i<nb)
     {
-        res = res + (nb * (nb-1));
-        nb--;
+        res = res * i;
+        i++;
     }
     return(res);
 }
 
 int main()
-{   
+{
     int i;
-    i = ft_iterative_factorial(10);
-    printf("%d", i);
+    i = ft_iterative_factorial(5);
+    printf("%d \n", i);
 }
