@@ -1,17 +1,28 @@
-void ft_rev_int_tab(int *tab, int size)
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_rev_int_tab.c                                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: joseferr <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/09/11 20:43:40 by joseferr          #+#    #+#             */
+/*   Updated: 2023/09/11 20:45:27 by joseferr         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+void	ft_rev_int_tab(int *tab, int size)
 {
-    int i;
-    int temp;
-    i = 0;
-    temp = 0;
+	int	i;
+	int	temp;
 
-    while (i < (size/2))
-    {
-        temp = tab[i];
-        tab[i] = tab[size-1-i];
-        tab[size-1-i] = temp;
-        i++;
-    }
+	i = 0;
+	temp = 0;
+	while (i < (size / 2))
+	{
+		temp = tab[i];
+		tab[i] = tab[size - 1 - i];
+		tab[size - 1 - i] = temp;
+		i++;
+	}
 }
 /*
 #include <stdio.h>

@@ -1,24 +1,41 @@
 #include <unistd.h>
+#include <stdio.h>
 
-char ft_wrt_str(char *str){
+void ft_wrt_str(int size, char *str){
 
     int i;
+    int x;
+    int temp;
+
     i = 0;
-    while(str[i])
+    temp = 0;
+    x = 0;
+
+    while (i < size-1)
     {
-    write(1, &str[i],1);
-    i++;
+        while ( x < size-1-i)
+        {
+            if (str[x] > str[x+1]) 
+            {
+                temp = str[x];
+                str[x] = str[x+1];
+                str[x+1] = temp;
+            }
+            x++;
+        }
+        i++;
     }
-    write(1, "\n",1);
-    return(0);
 }
 
 int main(int argc, char **argv)
 {
-    while(argc > 1)
+    int i;
+    i = 1;
+    ft_wrt_str(argc,argv) ;
+    while (i < argc)
     {
-    ft_wrt_str(argv[argc - 1]);
-    argc--;
+        printf("%s ", argv[i]);
+        i++;
     }
     
     return(0);
