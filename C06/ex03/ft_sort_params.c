@@ -1,6 +1,6 @@
 #include <unistd.h>
 
-char ft_print_program_name(char *str){
+char ft_wrt_str(char *str){
 
     int i;
     i = 0;
@@ -15,7 +15,11 @@ char ft_print_program_name(char *str){
 
 int main(int argc, char **argv)
 {
-    (void) argc;
-    ft_print_program_name(argv[0]);
+    while(argc > 1)
+    {
+    ft_wrt_str(argv[argc - 1]);
+    argc--;
+    }
+    
     return(0);
 }
