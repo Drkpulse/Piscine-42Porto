@@ -7,7 +7,7 @@ Repository with my work @ Piscine 42Porto
 
 
 > [!IMPORTANT]
-> Still under construction
+> Still under construction and please touch some grass :herb:
 
 
 > [!NOTE]
