@@ -5,14 +5,13 @@
 ## Overview
 Repository with my work @ Piscine 42Porto
 
-> [!NOTE]
-> Highlights information that users should take into account, even when skimming.
 
 > [!IMPORTANT]
-> Crucial information necessary for users to succeed.
+> Still under construction
 
-> [!WARNING]
-> Critical content demanding immediate user attention due to potential risks.
+
+> [!NOTE]
+> Below are some useful knowledge to keep you swimming :swimmer: :surfer:
 
 ### **Before Exams** <br />
 1- You should learn functions loops condition arrays and strings before exam 00 <br />
