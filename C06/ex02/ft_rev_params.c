@@ -27,12 +27,10 @@ char	ft_wrt_str(char *str)
 
 int	main(int argc, char **argv)
 {
-    while(argc > 1)
-    {
-    ft_wrt_str(argv[argc - 1]);
-    argc--;
-    }
-    
-    return(0);
+	while (argc > 1)
+	{
+		ft_wrt_str(argv[argc - 1]);
+		argc--;
+	}
+	return (0);
 }
-

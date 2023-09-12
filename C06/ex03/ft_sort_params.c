@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
+#include <stdio.h>
 
 void	ft_wrt_str(int size, char *str)
 {
@@ -36,19 +37,16 @@ void	ft_wrt_str(int size, char *str)
 	}
 }
 
-#include <stdio.h>
-
 int	main(int argc, char **argv)
 {
-    int i;
+	int	i;
 
-    i = 1;
-    ft_wrt_str(argc,argv) ;
-    while (i < argc)
-    {
-        printf("%s ", argv[i]);
-        i++;
-    }
-    
-    return(0);
+	i = 1;
+	ft_wrt_str(argc, argv);
+	while (i < argc)
+	{
+		printf("%s ", argv[i]);
+		i++;
+	}
+	return (0);
 }
