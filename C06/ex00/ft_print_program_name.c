@@ -6,7 +6,7 @@
 /*   By: joseferr <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/12 03:31:42 by joseferr          #+#    #+#             */
-/*   Updated: 2023/09/12 03:31:44 by joseferr         ###   ########.fr       */
+/*   Updated: 2023/09/12 04:07:57 by joseferr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
@@ -24,11 +24,11 @@ char	ft_print_program_name(char *str)
 	write(1, "\n", 1);
 	return (0);
 }
-/*
+
 int	main(int argc, char **argv)
 {
 	(void)argc;
 	ft_print_program_name(argv[0]);
 	return (0);
 }
-*/
+

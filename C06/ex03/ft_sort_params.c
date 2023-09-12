@@ -6,7 +6,7 @@
 /*   By: joseferr <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/12 03:28:48 by joseferr          #+#    #+#             */
-/*   Updated: 2023/09/12 03:28:50 by joseferr         ###   ########.fr       */
+/*   Updated: 2023/09/12 04:09:20 by joseferr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
@@ -35,7 +35,7 @@ void	ft_wrt_str(int size, char *str)
 		i++;
 	}
 }
-/*
+
 #include <stdio.h>
 
 int	main(int argc, char **argv)
@@ -52,4 +52,3 @@ int	main(int argc, char **argv)
     
     return(0);
 }
-*/
