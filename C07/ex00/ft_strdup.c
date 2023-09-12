@@ -1,6 +1,3 @@
-#include <unistd.h>
-#include <stdio.h>
-#include <string.h>
 #include <stdlib.h>
 
 int    ft_strlen(char *str)
@@ -41,7 +38,10 @@ char *ft_strdup(char *str)
 
 }
 
-
+/*
+#include <unistd.h>
+#include <stdio.h>
+#include <string.h>
 int main()
 {
     char source[] = "A Moulinette devia sofrer um bug ";
@@ -55,3 +55,4 @@ int main()
     printf("%s\n", test);
     return 0;
 }
+*/
