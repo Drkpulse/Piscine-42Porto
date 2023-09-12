@@ -6,10 +6,10 @@
 /*   By: joseferr <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/28 11:21:17 by joseferr          #+#    #+#             */
-/*   Updated: 2023/08/30 17:03:13 by joseferr         ###   ########.fr       */
+/*   Updated: 2023/09/12 02:35:17 by joseferr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-/*#include <unistd.h>*/
+#include <unistd.h>
 
 void	ft_is_negative(int n)
 {
@@ -26,10 +26,6 @@ void	ft_is_negative(int n)
 /*
 int main()
 {
-	int a;
-
-	a = 12;
-
-	ft_is_negative();
+	ft_is_negative(12);
 }
 */

@@ -16,7 +16,7 @@ void	functionsthefunction(char *str, int c)
 		*(str + c) = *(str + c) - 32;
 	}
 	else if ((*(str + c) >= '!' && *(str + c) <= '/') || (*(str + c) >= '['
-				&& *(str + c) <= '`') || *(str + c) == ' ')
+			&& *(str + c) <= '`') || *(str + c) == ' ')
 	{
 		if (*(str + c + 1) >= 'a' && *(str + c + 1) <= 'z')
 		{

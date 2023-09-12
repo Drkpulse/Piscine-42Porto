@@ -6,9 +6,11 @@
 /*   By: joseferr <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/12 00:36:59 by joseferr          #+#    #+#             */
-/*   Updated: 2023/09/12 00:37:05 by joseferr         ###   ########.fr       */
+/*   Updated: 2023/09/12 02:45:29 by joseferr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include <unistd.h>
+
 void	wrtchar(char c)
 {
 	write(1, &c, 1);
@@ -38,7 +40,6 @@ void	ft_putnbr(int nb)
 	}
 }
 /*
-#include <unistd.h>
 int	main(void)
 {
 	ft_putnbr(42);

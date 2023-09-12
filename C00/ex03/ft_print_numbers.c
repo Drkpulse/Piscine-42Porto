@@ -6,10 +6,10 @@
 /*   By: joseferr <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/30 15:06:23 by joseferr          #+#    #+#             */
-/*   Updated: 2023/08/30 15:06:37 by joseferr         ###   ########.fr       */
+/*   Updated: 2023/09/12 02:09:09 by joseferr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-/*#include <unistd.h>*/
+#include <unistd.h>
 
 void	ft_print_numbers(void)
 {

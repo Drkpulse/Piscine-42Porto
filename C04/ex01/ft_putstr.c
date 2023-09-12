@@ -6,9 +6,11 @@
 /*   By: joseferr <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/12 00:34:41 by joseferr          #+#    #+#             */
-/*   Updated: 2023/09/12 00:36:10 by joseferr         ###   ########.fr       */
+/*   Updated: 2023/09/12 02:45:21 by joseferr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include <unistd.h>
+
 void	ft_putstr(char *str)
 {
 	int	i;
@@ -22,9 +24,8 @@ void	ft_putstr(char *str)
 }
 
 /*
-#include <unistd.h>
 
-int	main(void)
+int main(void)
 {
 	char	str[];
 

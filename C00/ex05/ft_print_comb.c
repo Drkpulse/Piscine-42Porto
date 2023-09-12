@@ -6,10 +6,10 @@
 /*   By: joseferr <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/28 17:41:25 by joseferr          #+#    #+#             */
-/*   Updated: 2023/08/30 17:14:01 by joseferr         ###   ########.fr       */
+/*   Updated: 2023/09/12 02:09:31 by joseferr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-/*#include <unistd.h>*/
+#include <unistd.h>
 
 void	ft_putchar( char i, char n, char x)
 {

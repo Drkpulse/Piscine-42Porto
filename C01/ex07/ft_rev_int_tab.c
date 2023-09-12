@@ -9,6 +9,8 @@
 /*   Updated: 2023/09/11 20:45:27 by joseferr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include <unistd.h>
+
 void	ft_rev_int_tab(int *tab, int size)
 {
 	int	i;
@@ -26,9 +28,6 @@ void	ft_rev_int_tab(int *tab, int size)
 }
 /*
 #include <stdio.h>
-#include <unistd.h>
-
-
 int main()
 {
     int bat[] = {1,2,3,4,5,2};

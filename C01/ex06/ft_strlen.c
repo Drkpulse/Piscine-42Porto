@@ -9,6 +9,8 @@
 /*   Updated: 2023/09/11 20:39:33 by joseferr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include <unistd.h>
+
 int	ft_strlen(char *str)
 {
 	int	i;
@@ -23,7 +25,7 @@ int	ft_strlen(char *str)
 
 /*
 #include <stdio.h>
-#include <unistd.h>
+
 
 int main()
 {

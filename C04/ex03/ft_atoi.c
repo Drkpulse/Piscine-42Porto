@@ -9,23 +9,32 @@
 /*   Updated: 2023/09/12 00:37:53 by joseferr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include <unistd.h>
+
 int	ft_atoi(char *str)
 {
-	int	res;
-	int	i;
+	int	result;
+	int	sign;
 
-	res = 0;
-	i = 0;
-	while (str[i] != '\0')
+	result = 0;
+	sign = 1;
+	while (*str == 32 || (*str >= 9 && *str <= 13))
+		str++;
+	while (*str == '-' || *str == '+')
 	{
-		res = res * 10 + str[i] - '0';
-		i++;
+		if (*str == '-')
+			sign *= -1;
+		str++;
 	}
-	return (res);
+	while (*str >= '0' && *str <= '9')
+	{
+		result = result * 10 + *str - '0';
+		str++;
+	}
+	return (result * sign);
 }
 /*
 #include <stdio.h>
-#include <unistd.h>
 int	main(void)
 {
 	int		c;

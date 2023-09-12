@@ -6,10 +6,10 @@
 /*   By: joseferr <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/25 13:34:12 by joseferr          #+#    #+#             */
-/*   Updated: 2023/08/30 14:36:32 by joseferr         ###   ########.fr       */
+/*   Updated: 2023/09/12 02:08:41 by joseferr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-/*#include <unistd.h>*/
+#include <unistd.h>
 
 void	ft_print_alphabet(void)
 {
