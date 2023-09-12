@@ -6,7 +6,7 @@
 /*   By: joseferr <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/12 00:32:17 by joseferr          #+#    #+#             */
-/*   Updated: 2023/09/12 00:32:19 by joseferr         ###   ########.fr       */
+/*   Updated: 2023/09/12 01:27:45 by joseferr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
@@ -34,10 +34,10 @@ unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 
 int	main(void)
 {
-	char str1[100] = "Let me pass ", str2[] = "Moulinette";
+	char	str1[100] = "Let me pass ", str2[];
 
+	str1[100] = "Let me pass ", str2[] = "Moulinette";
 	ft_strlcat(str1, str2, 2);
-
 	printf("%s \n", str1);
 	printf("%s \n", str2);
 	printf("%d \n", ft_strlcat(str1, str2, 2));

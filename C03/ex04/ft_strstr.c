@@ -35,21 +35,20 @@ char	*ft_strstr(char *str, char *to_find)
 	}
 	return (to_find);
 }
-
+/*
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
-/*
 int	main(void)
 {
-	const char haystack[] = "Piscine 42Porto";
-	const char needle[] = "Porto";
-	char *res;
+	const char	haystack[];
+	const char	needle[];
+	char		*res;
 
+	haystack[] = "Piscine 42Porto";
+	needle[] = "Porto";
 	res = ft_strstr(haystack, needle);
-
 	printf("Needle Found: %s\n", res);
-
 	return (0);
 }
 */
