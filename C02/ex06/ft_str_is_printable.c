@@ -6,7 +6,7 @@
 /*   By: joseferr <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/11 23:05:48 by joseferr          #+#    #+#             */
-/*   Updated: 2023/09/11 23:07:41 by joseferr         ###   ########.fr       */
+/*   Updated: 2023/09/12 18:31:46 by joseferr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 int	ft_str_is_printable(char *str)
@@ -18,7 +18,7 @@ int	ft_str_is_printable(char *str)
 	c = 1;
 	while (str[i] != '\0')
 	{
-		if (str[i] >= '!' && str[i] <= '~')
+		if ((str[i] >= '!' && str[i] <= '~') || str[i] == ' ')
 		{
 			c = 1;
 		}
