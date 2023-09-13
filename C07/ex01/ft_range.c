@@ -1,5 +1,16 @@
-#include <stdlib.h>
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_range.c                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: joseferr <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/09/13 10:02:43 by joseferr          #+#    #+#             */
+/*   Updated: 2023/09/13 10:02:46 by joseferr         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 #include <stdio.h>
+#include <stdlib.h>
 
 int	*ft_range(int min, int max)
 {
@@ -13,7 +24,7 @@ int	*ft_range(int min, int max)
 	while (min < max)
 	{
 		array[i] = min;
-		min++;	
+		min++;
 		i++;
 	}
 	return (array);

@@ -1,17 +1,29 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strdup.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: joseferr <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/09/13 10:02:08 by joseferr          #+#    #+#             */
+/*   Updated: 2023/09/13 10:02:12 by joseferr         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 #include <stdlib.h>
 
-int    ft_strlen(char *str)
+int	ft_strlen(char *str)
 {
-    int i;
-    i = 0;
-    while(str[i])
-        i++;
-    return(i);
+	int	i;
+
+	i = 0;
+	while (str[i])
+		i++;
+	return (i);
 }
 
-void ft_strcpy(char *dest, char *src)
+void	ft_strcpy(char *dest, char *src)
 {
-    int	i;
+	int	i;
 
 	i = 0;
 	while (src[i])
@@ -21,30 +33,31 @@ void ft_strcpy(char *dest, char *src)
 	}
 	dest[i] = '\0';
 }
- 
-char *ft_strdup(char *str)
+
+char	*ft_strdup(char *str)
 {
-    int i;
-    int len;
-    char *dest;
+	int		i;
+	int		len;
+	char	*dest;
 
-    len = ft_strlen(str);
-    dest = (char *)malloc((len + 1) * sizeof(char));
-    if (dest == NULL)
+	len = ft_strlen(str);
+	dest = (char *)malloc((len + 1) * sizeof(char));
+	if (dest == NULL)
 		return (NULL);
-    ft_strcpy(dest, str);
-
-    return(dest);
-
+	ft_strcpy(dest, str);
+	return (dest);
 }
 
 /*
-#include <unistd.h>
 #include <stdio.h>
 #include <string.h>
-int main()
+#include <unistd.h>
+
+int	main(void)
 {
-    char source[] = "A Moulinette devia sofrer um bug ";
+	char	source[];
+
+    source[] = "A Moulinette devia sofrer um bug ";
  
     // A copy of source is created dynamically
     // and pointer to copy is returned.
@@ -53,6 +66,6 @@ int main()
  
     printf("%s\n", target);
     printf("%s\n", test);
-    return 0;
+    return (0);
 }
 */

@@ -6,20 +6,25 @@
 /*   By: joseferr <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/11 22:44:28 by joseferr          #+#    #+#             */
-/*   Updated: 2023/09/11 22:46:28 by joseferr         ###   ########.fr       */
+/*   Updated: 2023/09/12 18:17:59 by joseferr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 char	*ft_strncpy(char *dest, char *src, unsigned int n)
 {
-	int	i;
+	unsigned int	i;
 
 	i = 0;
-	while (i <= n - 1)
+	while (i < n && src[i] != '\0')
 	{
 		dest[i] = src[i];
 		i++;
 	}
-	dest[i] = '\0';
+	while (i < n)
+	{
+		dest[i] = '\0';
+		i++;
+	}
+	return (dest);
 }
 
 /*

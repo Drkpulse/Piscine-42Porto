@@ -6,7 +6,7 @@
 /*   By: joseferr <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/11 22:47:17 by joseferr          #+#    #+#             */
-/*   Updated: 2023/09/11 22:52:31 by joseferr         ###   ########.fr       */
+/*   Updated: 2023/09/12 18:22:37 by joseferr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 int	ft_str_is_alpha(char *str)
@@ -18,7 +18,8 @@ int	ft_str_is_alpha(char *str)
 	c = 1;
 	while (str[i] != '\0')
 	{
-		if (str[i] >= 'a' && str[i] <= 'z' || str[i] >= 'A' && str[i] <= 'Z')
+		if ((str[i] >= 'a' && str[i] <= 'z') || (str[i] >= 'A'
+				&& str[i] <= 'Z'))
 		{
 			c = 1;
 		}
@@ -34,9 +35,12 @@ int	ft_str_is_alpha(char *str)
 /*
 #include <stdio.h>
 #include <unistd.h>
-int main()
+
+int	main(void)
 {
-    char frs[] = "A MoUliNetTe deViA SofRer Um BuG";
+	char	frs[];
+
+    frs[] = "A MoUliNetTe deViA SofRer Um BuG";
     printf("%d \n",  ft_str_is_alpha(frs));
 }
 */
