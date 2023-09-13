@@ -9,25 +9,22 @@
 /*   Updated: 2023/09/12 03:25:58 by joseferr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <unistd.h>
 
 int	ft_recursive_power(int nb, int power)
 {
-	int	result;
-
-	result = nb;
-	if (result > result * nb)
-		return (0);
-	else if (power == 0)
+	if (nb == 0 && power == 0)
 		return (1);
 	else if (power < 0)
 		return (0);
-	else if (power > 1)
-		return (result * ft_recursive_power(result, power - 1));
-	else
-		return (result);
+	else if (power == 0)
+		return (1);
+	else if ((power - 1) > 0)
+		return (nb *= ft_recursive_power(nb, power - 1));
+	else 
+		return (nb);
 }
 /*
+#include <unistd.h>
 #include <stdio.h>
 int	main(void)
 {

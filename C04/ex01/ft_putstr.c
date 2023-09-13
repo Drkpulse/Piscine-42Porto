@@ -24,12 +24,9 @@ void	ft_putstr(char *str)
 }
 
 /*
-
 int main(void)
 {
-	char	str[];
-
-   str[] = "Moulinette had a bug ya ya yo";
+	char	str[] = "Moulinette had a bug ya ya yo";
    ft_putstr(str);
 }
 */

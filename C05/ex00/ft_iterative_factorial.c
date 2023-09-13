@@ -10,28 +10,25 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
 int	ft_iterative_factorial(int nb)
 {
-	int	res;
-	int	i;
+	int	ft;
+	int	nb1;
 
-	i = 1;
-	res = nb;
-	while (i < nb)
+	nb1 = nb;
+	ft = nb -1;
+	while (ft > 0)
 	{
-		res = res * i;
-		i++;
+		nb1 = nb1 * ft;
+		ft--;
 	}
-	return (res);
 	if (nb == 0)
 		return (1);
 	if (nb < 0)
 	{
 		return (0);
 	}
-	return (nb);
+	return (nb1);
 }
 /*
 #include <stdio.h>

@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 #include <unistd.h>
 
-char	ft_wrt_str(char *str)
+void	ft_wrt_str(char *str)
 {
 	int	i;
 
@@ -22,7 +22,6 @@ char	ft_wrt_str(char *str)
 		i++;
 	}
 	write(1, "\n", 1);
-	return (0);
 }
 
 int	main(int argc, char **argv)

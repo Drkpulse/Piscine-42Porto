@@ -30,16 +30,8 @@ int	ft_strncmp(char *s1, char *s2, unsigned int n)
 
 int main ()
 {
-	char	str[][15];
-  int n;
-
-  str[][15] = { "Moulinette" , "Moul1n3tte" , "Trashcan" };
-  printf ("Looking for Moulinette's replacement \n");
-  for (n=0 ; n<3 ; n++)
-    if (ft_strncmp (str[n],"Moulinette",5) == 0)
-    {
-      printf ("found %s\n",str[n]);
-    }
-  return (0);
+	char	str1[] = "Moulinette", str2[] = "Moulinutte";
+	printf ("%d", ft_strncmp(str1,str2 ,9));
+  	return (0);
 }
 */

@@ -29,6 +29,7 @@ char	*ft_strcat(char *dest, char *src)
 	dest[i] = '\0';
 	return (dest);
 }
+
 /*
 #include <stdio.h>
 #include <string.h>
@@ -36,9 +37,7 @@ char	*ft_strcat(char *dest, char *src)
 
 int	main(void)
 {
-	char	str1[100] = "Let me pass ", str2[];
-
-	str1[100] = "Let me pass ", str2[] = "Moulinette";
+	char str1[100] = "Let me pass ", str2[] = "Moulinette";
 	ft_strcat(str1, str2);
 	printf("%s \n", str1);
 	printf("%s \n", str2);

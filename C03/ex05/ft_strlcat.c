@@ -26,15 +26,15 @@ unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 {
 	unsigned int	i;
 	unsigned int	j;
-	unsigned int	res_d;
-	unsigned int	res_s;
+	unsigned int	rest_d;
+	unsigned int	rest_s;
 
 	i = ft_strlen(dest);
 	j = 0;
-	res_d = ft_strlen(dest);
-	res_s = ft_strlen(src);
+	rest_d = ft_strlen(dest);
+	rest_s = ft_strlen(src);
 	if (size < 1)
-		return (res_s + size);
+		return (rest_s + size);
 	while (src[j] && i < size - 1)
 	{
 		dest [i] = src[j];
@@ -42,11 +42,12 @@ unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 		j++;
 	}
 	dest[i] = '\0';
-	if (size < res_d)
-		return (res_s + size);
+	if (size < rest_d)
+		return (rest_s + size);
 	else
-		return (res_d + res_s);
+		return (rest_d + rest_s);
 }
+
 /*
 #include <stdio.h>
 #include <string.h>
@@ -54,9 +55,7 @@ unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 
 int	main(void)
 {
-	char	str1[100] = "Let me pass ", str2[];
-
-	str1[100] = "Let me pass ", str2[] = "Moulinette";
+	char str1[100] = "Let me pass ", str2[] = "Moulinette";
 	ft_strlcat(str1, str2, 2);
 	printf("%s \n", str1);
 	printf("%s \n", str2);

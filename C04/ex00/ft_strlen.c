@@ -25,9 +25,8 @@ int	ft_strlen(char *str)
 
 int	main(void)
 {
-	char	str[];
+	char	str[] = "Moulinette had a bug ya ya yo";
 
-	str[] = "Moulinette had a bug ya ya yo";
 	printf("%d \n", ft_strlen(str));
 }
 */

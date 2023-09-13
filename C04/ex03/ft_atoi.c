@@ -38,10 +38,8 @@ int	ft_atoi(char *str)
 int	main(void)
 {
 	int		c;
-	char	pal[];
-
-	pal[] = "12345";
-	c = ft_atoi(pal);
+	char	numbers[] = "12345";
+	c = ft_atoi(numbers);
 	printf("%d", c);
 }
 */

@@ -6,7 +6,7 @@
 /*   By: joseferr <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/11 23:56:14 by joseferr          #+#    #+#             */
-/*   Updated: 2023/09/11 23:56:18 by joseferr         ###   ########.fr       */
+/*   Updated: 2023/09/13 15:32:32 by joseferr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 int	ft_strcmp(char *s1, char *s2)
@@ -34,16 +34,8 @@ int	ft_strcmp(char *s1, char *s2)
 
 int main ()
 {
-	char	str[][15];
-  int n;
-
-  str[][15] = { "Moulinette" , "Moul1n3tte" , "Trashcan" };
-  printf ("Looking for Moulinette's replacement \n");
-  for (n=0 ; n<3 ; n++)
-    if (ft_strcmp (str[n],"Moulinette") == 0)
-    {
-      printf ("found %s\n",str[n]);
-    }
+	char	str1[] = "Moulinette", str2[] = "Moulinutte";
+	printf ("%d", ft_strcmp(str1,str2));
   return (0);
 }
 */

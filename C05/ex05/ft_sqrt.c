@@ -9,23 +9,27 @@
 /*   Updated: 2023/09/12 03:26:31 by joseferr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <unistd.h>
 
 int	ft_sqrt(int nb)
 {
-	int	i;
+	int	exp;
 
-	i = 0;
-	if (nb <= 0)
-		return (0);
-	while (i * i < nb && i <= 46340)
-		i++;
-	if (i * i == nb)
-		return (i);
-	else
-		return (0);
+	exp = 1;
+	if (nb > 0)
+	{
+		while (exp * exp <= nb)
+		{
+			if (exp * exp == nb)
+				return (exp);
+			if (exp > 46340)
+				return (0);
+			exp++;
+		}
+	}
+	return (0);
 }
 /*
+#include <unistd.h>
 #include <stdio.h>
 int	main(void)
 {
