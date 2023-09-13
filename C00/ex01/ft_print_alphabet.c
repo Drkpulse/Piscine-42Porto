@@ -22,7 +22,6 @@ void	ft_print_alphabet(void)
 		a++;
 	}
 }
-
 /*
 int main()
 {

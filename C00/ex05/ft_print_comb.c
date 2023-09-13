@@ -11,39 +11,41 @@
 /* ************************************************************************** */
 #include <unistd.h>
 
-void	ft_putchar( char i, char n, char x)
+void	printar(char i, char j, char k)
 {
-	write(1, &i, 1);
-	write(1, &n, 1);
-	write(1, &x, 1);
+	write (1, &i, 1);
+	write (1, &j, 1);
+	write (1, &k, 1);
 	if (i < '7')
 	{
-		write(1, ", ", 1);
+		write (1, ", ", 2);
 	}
 }
 
 void	ft_print_comb(void)
 {
 	char	i;
-	char	n;
-	char	x;
+	char	j;
+	char	k;
 
 	i = '0';
 	while (i <= '7')
 	{
-		n = i + 1;
-		while (n <= '8')
+		j = i + 1;
+		while (j <= '8')
 		{
-			x = n + 1;
-			while (x <= '9')
+			k = j + 1;
+			while (k <= '9')
 			{
-				ft_putchar(i, n, x);
-				x++;
+				printar(i, j, k);
+				k++;
 			}
-			n++;
+			j++;
 		}
 		i++;
 	}
 }
+/*
+ int main(){ ft_print_comb();} 
+*/
 
-/* int main(){ ft_print_comb();} */
