@@ -12,28 +12,23 @@
 char	*ft_strstr(char *str, char *to_find)
 {
 	int	i;
-	int	f;
-	int	n;
+	int	j;
 
 	i = 0;
-	n = 0;
+	if (to_find[0] == '\0')
+		return (str);
 	while (str[i])
 	{
-		if (str[i] == to_find[n])
+		j = 0;
+		while (str[i + j] == to_find[j])
 		{
-			while (to_find)
-			{
-				if (str[f] != to_find[n])
-					break ;
-				f++;
-				n++;
-			}
+			if (to_find[j + 1] == '\0')
+				return (&str[i]);
+			j++;
 		}
 		i++;
-		f = i;
-		n = 0;
 	}
-	return (to_find);
+	return ("NULL");
 }
 /*
 #include <stdio.h>
