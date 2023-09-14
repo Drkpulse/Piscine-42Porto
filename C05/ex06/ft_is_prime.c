@@ -10,22 +10,29 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <unistd.h>
+
 int	ft_is_prime(int nb)
 {
 	int	i;
+	int	prime;
 
 	i = 2;
-	if (nb == 0 || nb == 1 || nb < 0)
+	prime = 0;
+	if (nb < 2)
 		return (0);
-	while (i < nb)
+	if (nb == i)
+		return (1);
+	while (i <= nb / 2)
 	{
-		if ((nb % i) == 0)
-		{
-			return (0);
-		}
+		if (nb % i == 0)
+			prime++;
 		i++;
 	}
-	return (1);
+	if (prime == 0)
+		return (1);
+	else
+		return (0);
 }
 /*
 #include <unistd.h>
@@ -34,11 +41,11 @@ int	main(void)
 {
     int i;
 
-    i = ft_is_prime(17);
+    i = ft_is_prime(2);
     printf("%d \n", i);
 	if (i == 1)
-	printf("Nao e Primo\n");
-	else
 	printf("Olha um Primo\n");
+	else
+	printf("Nao e Primo\n");
 }
 */

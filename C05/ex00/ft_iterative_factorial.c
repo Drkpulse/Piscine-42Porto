@@ -9,26 +9,23 @@
 /*   Updated: 2023/09/12 03:25:14 by joseferr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include <unistd.h>
 
 int	ft_iterative_factorial(int nb)
 {
-	int	ft;
-	int	nb1;
+	int	result;
 
-	nb1 = nb;
-	ft = nb -1;
-	while (ft > 0)
-	{
-		nb1 = nb1 * ft;
-		ft--;
-	}
-	if (nb == 0)
-		return (1);
+	result = 1;
 	if (nb < 0)
-	{
 		return (0);
+	else if (nb <= 1)
+		return (result);
+	while (nb > 0)
+	{
+		result *= nb;
+		nb--;
 	}
-	return (nb1);
+	return (result);
 }
 /*
 #include <stdio.h>
