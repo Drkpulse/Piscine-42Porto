@@ -10,26 +10,25 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <unistd.h>
+
 int	ft_iterative_power(int nb, int power)
 {
-	int	res;
+	int	result;
 
-	res = 1;
-	if (nb == 0 && power == 0)
-	{
-		return (1);
-	}
+	result = nb;
 	if (power < 0)
 		return (0);
+	if (power == 0)
+		return (1);
 	while (power > 1)
 	{
-		res *= nb;
-		power --;
+		result *= nb;
+		power--;
 	}
-	return (res);
+	return (result);
 }
 /*
-#include <unistd.h>
 #include <stdio.h>
 int	main(void)
 {
