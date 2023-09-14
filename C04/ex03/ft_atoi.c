@@ -38,7 +38,7 @@ int	ft_atoi(char *str)
 int	main(void)
 {
 	int		c;
-	char	numbers[] = "12345";
+	char	numbers[] = "    -+----1223mn3";
 	c = ft_atoi(numbers);
 	printf("%d", c);
 }
