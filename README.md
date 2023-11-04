@@ -59,10 +59,18 @@ The table below show the projects that I have carried out during my C Piscine.
 |16	|[BSQ](./bsq)			|C		|4 days			|225 XP		|0% :x:				|
 |17	|Final Exam			|C		|about 8 hours		|375 XP		|48% :heavy_check_mark:		|
 
-## Licensing Information:
-
-*The content of this repository itself is licensed under the Creative Commons
-Attribution 3.0 license, and the underlying source code used to format and
-display that content is licensed under the MIT license.*
-
-Copyright (c) 2023 
+ ## :cop: NORMINETTE
+ At 42 School, it is expected that almost every project is written in accordance with the Norm, which is the coding standard of the school.
+ 
+ ```
+ - No for, do...while, switch, case, goto, ternary operators and variable-length arrays are allowed
+ - Each function must be a maximum of 25 lines, not counting the function's curly brackets
+ - Each line must be at most 80 columns wide, comments included
+ - A function can take 4 named parameters maximum
+ - No assigns and declarations in the same line (unless static)
+ - You can't declare more than 5 variables per function
+ - ...
+ ```
+ 
+ * [42 Norms](https://github.com/Drkpulse/42_Common-Core/blob/main/en.norm.pdf) - Information about 42 code norms. `PDF`
+ * [Norminette](https://github.com/42School/norminette) - Tool by 42, to respect the code norm. `GitHub`
