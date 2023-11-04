@@ -1,4 +1,6 @@
-<img src="Files/Images/logo42_dark.svg" width="300" alt="42 Logo">
+<h1 align="center">
+	🏊 C Piscine @ <img src="Files/Images/logo42_dark.svg" width="100" alt="42 Logo">
+</h1>
 
 `Don't Copy, Learn.` <br />
 
@@ -30,6 +32,30 @@ Repository with my work @ Piscine 42Porto { August / September 2023}
 -Try to improve your code skills and your algorithms. <br />
 ### **Week4:** C11 <br />
 -Don't waste your time on rush02 and BSQ and C10, it's better to validate the previous days with 100% and prepare for the final exam. <br />
+
+## Fulfilled projects
+
+The table below show the projects that I have carried out during my C Piscine.
+
+|#	|SUBJECT			|LANGUAGE	|DURATION		|EXPERIENCE	|STATUS				|
+|:-:    |:--				|:-:		|--:			|--:		|--:				|
+|01	|[Shell 00](./shell00)		|Shell		|2 days			|100 XP		|100% :heavy_check_mark:	|
+|02	|[Shell 01](./shell01)		|Shell		|2 days			|100 XP		|85% :heavy_check_mark:		|
+|03	|Exam 00			|C		|<10 minutes		|225 XP		|0% :x:				|
+|04	|[C 00](./c00)			|C		|2 days			|100 XP		|85% :heavy_check_mark:		|
+|05	|[Rush 00](./rush00)		|C		|2 days			|150 XP		|120% :heavy_check_mark:	|
+|06	|[C 01](./c01)			|C		|1 day			|100 XP		|100% :heavy_check_mark:	|
+|07	|Exam 01			|C		|about 1 hour		|225 XP		|0% :x:				|
+|08	|[Rush 01](./rush01)		|C		|2 days			|150 XP		|0% :x:				|
+|09	|[C 02](./c02)			|C		|2 days			|100 XP		|65% :heavy_check_mark:		|
+|10	|[C 03](./c03)			|C		|2 days			|100 XP		|75% :heavy_check_mark:		|
+|11	|Exam 02			|C		|4 hours		|225 XP		|28% :heavy_check_mark:		|
+|12	|[Rush 02](./rush02)		|C		|2 days			|150 XP		|0% :x:				|
+|13	|[C 04](./c04)			|C		|2 days			|100 XP		|70% :heavy_check_mark:		|
+|14	|[C 06](./c06)			|C		|1 day			|100 XP		|70% :heavy_check_mark:		|
+|15	|[C 05](./c05)			|C		|2 days			|100 XP		|75% :heavy_check_mark:		|
+|16	|[BSQ](./bsq)			|C		|4 days			|225 XP		|0% :x:				|
+|17	|Final Exam			|C		|about 8 hours		|375 XP		|48% :heavy_check_mark:		|
 
 ## Licensing Information:
 
