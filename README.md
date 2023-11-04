@@ -4,12 +4,12 @@
 
 `Don't Copy, Learn.` <br />
 
- Overview
-Repository with my work @ Piscine 42Porto { August / September 2023}
+### Overview
+Repository with my work on Piscine #7 @42Porto { August / September 2023}
 
 
 > [!IMPORTANT]
-> Still under construction and please touch some grass :herb:
+> Please touch some grass :herb: & Keep yourself hidrated ( **🍼 Bottles on floor!!!** )
 
 
 > [!NOTE]
@@ -32,6 +32,8 @@ Repository with my work @ Piscine 42Porto { August / September 2023}
 -Try to improve your code skills and your algorithms. <br />
 ### **Week4:** C11 <br />
 -Don't waste your time on rush02 and BSQ and C10, it's better to validate the previous days with 100% and prepare for the final exam. <br />
+
+-----
 
 ## Fulfilled projects
 
