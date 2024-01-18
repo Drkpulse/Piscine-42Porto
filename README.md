@@ -41,23 +41,23 @@ The table below show the projects that I have carried out during my C Piscine.
 
 |#	|SUBJECT			|LANGUAGE	|STATUS				|
 |:-:    |:--				|:-:		|--:				|
-|01	|[Shell 00](./shell00)		|Shell		|85% :heavy_check_mark:	|
-|02	|[Shell 01](./shell01)		|Shell		|70% :heavy_check_mark:		|
-|03	|Exam 00			|C		|30% :x:				|
-|04	|[C 00](./c00)			|C		|85% :heavy_check_mark:		|
-|05	|[Rush 00](./rush00)		|C		|100% :heavy_check_mark:	|
-|06	|[C 01](./c01)			|C		|50% :heavy_check_mark:	|
-|07	|Exam 01			|C		|40% :x:				|
-|08	|Rush 01			|C		|0% :x:				|
-|09	|[C 02](./c02)			|C		|65% :heavy_check_mark:		|
-|10	|[C 03](./c03)			|C		|100% :heavy_check_mark:		|
-|11	|Exam 02			|C		|40% :heavy_check_mark:		|
-|12	|Rush 02			|C		|0% :x:				|
-|13	|[C 04](./c04)			|C		|77% :heavy_check_mark:		|
-|14	|[C 05](./c05)			|C		|80% :heavy_check_mark:		|
-|15	|[C 06](./c06)			|C		|100% :heavy_check_mark:		|
-|16	|[BSQ](./bsq)			|C		|0% :x:				|
-|17	|Final Exam			|C		|48% :heavy_check_mark:		|
+|01	|[Shell 00](./shell00)		|Shell		|85%|
+|02	|[Shell 01](./shell01)		|Shell		|70%	|
+|03	|Exam 00			|C		|30% 				|
+|04	|[C 00](./c00)			|C		|85%|
+|05	|[Rush 00](./rush00)		|C		|100% |
+|06	|[C 01](./c01)			|C		|50% 	|
+|07	|Exam 01			|C		|40% 			|
+|08	|Rush 01			|C		|0% 		|
+|09	|[C 02](./c02)			|C		|65% 	|
+|10	|[C 03](./c03)			|C		|100% 	|
+|11	|Exam 02			|C		|40% |
+|12	|Rush 02			|C		|0% 		|
+|13	|[C 04](./c04)			|C		|77% |
+|14	|[C 05](./c05)			|C		|80% 	|
+|15	|[C 06](./c06)			|C		|100% 	|
+|16	|[BSQ](./bsq)			|C		|0% 		|
+|17	|Final Exam			|C		|48% 	|
 
  ## :cop: NORMINETTE
  At 42 School, it is expected that almost every project is written in accordance with the Norm, which is the coding standard of the school.
